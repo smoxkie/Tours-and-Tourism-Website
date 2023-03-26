@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ginto Nord, sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* background-color: #F1F8FF; */
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    /* background-image: url(https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/01/DONE_Sunset-over-finnish-Pyhae-Luosto-Nationalpark_Credit_GettyImages-172412271.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Bvideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.nav3 a{
+    list-style: none;
+    text-decoration: none;
+    color: #F1F8FF;
+}
+.navBar {
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar>h3:hover {
+    font-size: 21px;
+}
+
+i {
+    cursor: pointer;
+}
+
+svg {
+    position: absolute;
+    left: 110px;
+    cursor: pointer;
+}
+
+#bar {
+    position: absolute;
+    right: 130px;
+}
+
+#heart {
+    position: absolute;
+    right: 185px;
+}
+
+#Mag {
+    position: absolute;
+    right: 235px;
+}
+
+i {
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 100px;
+    font-size: large;
+}
+
+.h02 {
+    font-size: 21px;
+    /* border-bottom: 0.4rem solid #BCE3BF; */
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.h01:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.h02:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.heading {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    height: 15%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vert1{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+.con{
+   border-top: 1px solid rgb(153,153,153);
+   margin-top: 100px;
+   padding-top: 20px;
+   margin-left: 60px;
+   /* padding-right: 190px; */
+}
+.column {
+    float: left;
+    width: 32.33%;
+    padding: 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+  .column:hover{
+    opacity: 0.8;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: flex;
+  }
+  .pic3{
+    height: 63%;
+    width: 45%;
+    margin-top: -360px;
+    cursor: pointer;
+  }
+  .pic1content{
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+  }
+
+
+  /* 3rd page */
+
+  .container3{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    background-image: url(https://wallpaperaccess.com/full/51364.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* object-fit: none; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* image-rendering: pixelated; */
+}
+/* .container3 img{
+    height: 100vh;
+} */
+  .text-block {
+    color: white;
+    padding: 80px ;
+    margin: 40px auto;
+    font-size: 25px;
+  }
+  .text-block h1{
+    font-weight: 900;
+    margin-bottom: 16px;
+    
+  }
+  .text-block h3{
+    padding-left: 30px;
+    position: absolute;
+    margin-top: -25px;
+    left: -50px;
+    /* bottom: 20px; */
+  }
+  .text-block h5{
+    font-size: 15px;
+  }
+
+
+
+
+/* 4rth page */
+
+
+    .content-part-2{ width:1300px; float:left; background:#F5F5F5; margin:20px auto;margin-left: 110px;}
+.content-part-2-h3{ font-size:30px; color:#000; text-transform:uppercase; padding:30px 0px 5px; text-align:center;}
+.border-bottom{border-bottom:3px solid #FC0; width:150px; margin:0px auto 30px; }
+.content-part-2-sub{ width:260px; float:left; margin:10px 30px 30px; padding:0px 0px 10px; background:#FFF;}
+.content-part-2-sub-h4{ font-size:17px; font-weight:600; padding:10px 10px 0px; color:#06C;}
+.content-part-2-sub-p{ color:#333; font-size:14px; padding:5px 10px; line-height:26px;}
+.content-part-2-sub-price{ font-size:20px; font-weight:bold; color:#F0B604; padding:5px 10px 10px;}
+.content-part-2-sub-btn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 20px; 
+ font-size:16px; border-radius:2px; border:none; margin:0px 10px; float:left; width:200px !important;}
+.content-part-2-sub-btn:hover{ background:#004566; text-decoration:none;}
+
+
+
+/* 5th page */
+
+
+
+
+
+
+
+.footer{
+
+    position: relative;
+   top: 10vh;
+     display: flex;
+
+    width: 100vw;
+    background-color:green ; 
+    background-color:#fdf9f0 ;
+}
+.firstfooter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 80px;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.footerlogo{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footerSocialLinks ul {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.footerSocialLinks ul li{
+    margin: 10px;
+}
+.subscribediv{
+    height: 45vh;
+    width: 50vw;
+    position: relative;
+    bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+    background-color:#faf0da ;
+}
